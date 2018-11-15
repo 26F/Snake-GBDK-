@@ -424,6 +424,10 @@ void main() {
 
   while (1) {
     
+    if (joypad() & J_A) {
+    	wait4 = INIT_SPEED; // for debugging
+    }
+
     if (joypad() & J_START) {
       waitpadup();
       pause = 1;
