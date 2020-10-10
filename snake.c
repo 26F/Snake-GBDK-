@@ -1,3 +1,7 @@
+/*
+does not support gbdk-2020 yet. I will likely reprogram from scratch rather than fixing this - if I ever get the time.
+Feel free to use the code in anyway you like.
+*/
 
 #include <gb/gb.h>
 
